@@ -1,11 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ola Mundo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Capivaras</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1> Olá Mundo!</h1>
+  <header>
+    <div class="container flexbox">
+      <h1 id="logo">
+        <img src="./imgs/logo.png"/>
+        Capivaras
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#home" class="ativo">Home</a></li>
+          <li><a href="#curiosidades">Curiosidades</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div id="destaque" class="container flexbox">
+        <div id="img-destaque">
+          <img src="./imgs/destaque.webp">
+        </div>
+        <div id="txt-destaque">
+          <h1>Conheça as Capivaras &#128512;</h1>
+          <p>
+            As capivaras são os maiores roedores do mundo, conhecidos por sua natureza
+            social e comportamento tranquilo. Elas vivem em grupos próximos a corpos
+            d’água e são um símbolo da fauna brasileira. 
+          </p>
+          <a href="#">Saiba Mais</a>
+        </div>
+    </div>
+    <h2 class="container">Curiosidades das Capivaras</h2>
+    <div id="curiosidades" class="container flexbox">
+      <div class="card">
+        <h3> Animais Sociais</h3>
+        <p>Capivaras vivem em grupos que podem ter até 20 indivíduos, mostrando forte comportamento
+          social e cooperação. </p>
+      </div>
+      <div class="card">
+        <h3>Nadadores Habilidosos</h3>
+        <p>
+          Elas são excelentes nadadoras e podem ficar submersas por até cinco minutos para escapar de predadores.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Herbívoras</h3>
+        <p>A dieta das capivaras é composta principalmente por gramíneas e plantas aquáticas.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container flexbox">
+      <p>Todos os direitos reservados &copy;</p>
+      <div id="redes">
+        <a hre="#"><i class="fab fa-facebook"></i></a>
+        <a hre="#"><i class="fab fa-instagram"></i></a>
+        <a hre="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

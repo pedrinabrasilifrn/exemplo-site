@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+    color:seagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: seagreen;
+}
+header{
+    background-color: white;
+}
+main{
+    background-color: lightblue;
+    min-height: calc(100vh - 200px);
+    padding: 20px 0px;
+}
+footer{
+    color:white;
+    background-color: seagreen;
+}
+.container{
+    width: 80%;
+    min-width: 796px;
+    margin: 0px auto;
+    padding: 20px;
+}
+#logo img{
+    width: 50px;
+    vertical-align: bottom;
+}
+h1{
+    font-size: 36px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    min-width: 400px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: seagreen;
+    font-size: 24px;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav a.ativo{
+    font-weight: bold;
+}
+#destaque{
+    background-color: white;
+    padding: 0px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#txt-destaque{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    gap: 20px;
+}
+#txt-destaque p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+#txt-destaque a{
+    background-color: seagreen;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+#curiosidades.flexbox{
+    gap:20px;
+}
+
+#redes a{
+    color: white !important;
+    
+}

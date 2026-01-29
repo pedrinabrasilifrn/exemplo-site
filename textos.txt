@@ -1,0 +1,15 @@
+Título da página: - Capivaras
+
+Menu de navegação: - Home - Sobre - Galeria - Contato
+
+Seção principal (Intro): - Título: Conheça as Capivaras - Texto: As
+capivaras são os maiores roedores do mundo, conhecidos por sua natureza
+social e comportamento tranquilo. Elas vivem em grupos próximos a corpos
+d’água e são um símbolo da fauna brasileira. - Botão: Saiba Mais
+
+Curiosidades sobre Capivaras: - Animais Sociais: Capivaras vivem em
+grupos que podem ter até 20 indivíduos, mostrando forte comportamento
+social e cooperação. - Nadadores Habilidosos: Elas são excelentes
+nadadoras e podem ficar submersas por até cinco minutos para escapar de
+predadores. - Herbívoras: A dieta das capivaras é composta
+principalmente por gramíneas e plantas aquáticas.
